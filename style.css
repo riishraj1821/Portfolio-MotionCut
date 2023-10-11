@@ -1,0 +1,232 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border border-box;
+    
+}
+body{
+    background-image: radial-gradient( circle 815px at 23.4% -21.8%,  rgba(9,29,85,1) 0.2%, rgba(0,0,0,1) 100.2% );
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: #8BC6EC;
+    background-color: #FF3CAC;
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+
+}
+
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin: 0 23px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    color: rgb(16, 16, 54);
+}
+main hr{
+    border: 0;
+    background: #9c97f1;
+    height: 1px;
+    margin: 60px 84px;
+}
+.leftbox{
+    font-size: 2.5rem;
+}
+
+
+.firstsection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 130px 0;
+}
+.firstsection > div{
+    width: 30%;
+}
+
+.leftsection{
+font-size: 2.5rem;
+}
+.leftsection .buttons{
+    padding: 50px 0;
+}
+.leftsection .btn{
+    padding: 12px;
+      border: 2px solid white;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 20px;
+      color: white;
+      background: #343080;
+}
+.rightsection img{
+    width: 80%;
+    margin: 20px 0;
+    height: 50%;
+}
+.purple{
+   color: rgb(170, 107, 228);
+}
+.text-grey{
+    color: grey;
+}
+#element{
+    color: rgb(170, 107, 228);
+}
+.secondsection{
+    max-width: 80vw;
+    margin: auto;
+    height: 130vh;
+}
+.secondsection h1{
+    font-size: 1.5rem;
+}
+.secondsection .box{
+    background: white;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+    justify-content: space-around;
+}
+.secondsection .verticallarge{
+    height:  428px;
+    width: 1px;
+    background: white;
+    /* margin: 0 40px; */
+}
+.secondsection .verticalsmall{
+    height:  80px;
+    width: 1px;
+    background: white;
+    /* margin: 0 40px; */
+}
+.verticalsmall{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+.image-top{
+    width: 40px;
+    position: relative;
+    top: -45;
+    left: -17;
+}
+.vertical-title{
+    position: relative;
+    top: 394px;
+    width: 150px;
+}
+
+.vertical-desc{
+    position: relative;
+    top: 396px;
+    color: grey;
+    font-size: 10px;
+    width: 182px;
+}
+.vertical-title2{
+    position: relative;
+    top: 394px;
+    width: 150px;
+}
+
+.vertical-desc2{
+    position: relative;
+    top: 396px;
+    color: grey;
+    font-size: 15px;
+    width: 182px;
+}
+.vertical-desc2 ul li{
+    list-style: none;
+}
+.vertical-desc2 ul li::before{
+
+    content: "\2022";
+        color: white;
+        font-weight: bold;
+        display: inline-block; 
+        width: 1em;
+        margin-left: -1em;
+}
+.vertical-title-small{
+    position: relative;
+    top: 87px;
+    right: 60px;
+    width: 150px
+}
+
+.vertical-desc-small{
+    position: relative;
+    top: 93px;
+    right: 65px;
+    color: grey;
+    font-size: 10px;
+    width: 182px;
+}
+.vertical-desc-small h3{
+    color: rgba(107, 107, 188, 0.801);
+    margin-bottom: 2px;
+}
+.vertical-desc-small p{
+    margin-bottom: 4px;
+}
+.vertical-title-small-1{
+    position: relative;
+    top: 46px;
+    right: 72px;
+    width: 150px
+}
+.vertical-desc-small-1{
+    position: relative;
+    top: 54px;
+    right: 89px;
+    color: grey;
+    font-size: 10px;
+    width: 182px;
+}
+.vertical-desc-small-1 h4{
+    margin: 4px 0;
+}
+.vertical-desc-small-1 a{
+    position: relative;
+    left: -11px;
+    color: rgba(107, 107, 188, 0.801);
+}
+.vertical-desc-small-1 a:hover{
+    color: rgba(167, 167, 236, 0.801);
+    
+}
+footer{
+    background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    
+}
+.footer{
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+.footer ul{
+    list-style: none;
+}
+.footer > div{
+    width: 223px;
+}
+footer .footer-rights{
+    text-align: center;
+    color: rgb(23, 25, 52);
+    padding: 12px 0;
+}
